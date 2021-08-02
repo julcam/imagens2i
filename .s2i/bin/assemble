@@ -36,6 +36,10 @@ else
     fi
   fi
 fi
+FECHA=`date "+%d-%m-%Y"`
+echo "hola GBS la fecha de hoy es: $FECHA" >> ./info.html
+echo "esto es un texto de prueba archivo 2" >> ./info2.html
+ 
 
 # Fix source directory permissions
 fix-permissions ./
